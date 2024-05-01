@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* Branco */
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #80bfff; /* Azul claro */
+    font-size: 18px;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    font-size: 18px;
+    padding: 15px 20px;
+    display: inline-block;
+    background-color: #80bfff; /* Azul claro */
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+#menu ul li a:hover {
+    background-color: #99ccff; /* Azul claro */
+}
+
+input[type=submit] {
+    border: none;
+    color: #fff;
+    background-color: #80bfff; /* Azul claro */
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type=submit]:hover {
+    background-color: #99ccff; /* Azul claro */
+}
+
+.input_data, .input_data_id, .input_data_date {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 18px;
+    width: 300px;
+    padding: 5px;
+    transition: border-color 0.3s;
+}
+
+.input_data:focus, .input_data_id:focus, .input_data_date:focus {
+    border-color: #80bfff; /* Azul claro */
+}
+
+.table_round {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+.table_round th, .table_round td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table_round th {
+    background-color: #80bfff; /* Azul claro */
+    color: #fff;
+}
+
+.title {
+    font-size: 28px;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+    border: 7px solid #80bfff; /* Azul claro */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#botaoEspecial {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+label {
+    font-size: 18px;
+    color: #80bfff; /* Azul claro */
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.btn-consultar {
+    border: none;
+    color: #fff;
+    background-color: #0CA94A;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-excluir:hover,
+.btn-consultar:hover {
+    background-color: #7f8fa6;
+}
+
+.btn-excluir {
+    border: none;
+    color: #fff;
+    background-color: #A90C0C;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-excluir:hover {
+    background-color: #ff6666; /* Tonalidade mais escura de vermelho no hover */
+}
